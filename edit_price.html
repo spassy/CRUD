@@ -1,0 +1,13 @@
+
+
+<p>Edit the Profession with ID = {{no}}</p>
+<form action="/add_info/{{no}}" method="get">
+    <p>Введите профессию:<br></p>
+    <input type="text" name="Profession" value="{{old[0]}}" size="100" maxlength="100">
+    <p>Введите описание курса:<br></p>
+    <input type="text" name="Description" value="{{old[1]}}" size="100" maxlength="100">
+    <p>Введите стоимость курса:</p>
+    <input type="text" name="Price" value="{{old[2]}}" size="100" maxlength="100">
+    <br>
+    <input type="submit" name="save" value="save">
+</form>
